@@ -1,7 +1,9 @@
-package com.example.ppeandroidstudio.buyornot;
+package com.example.ppeandroidstudio;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.ppeandroidstudio.buyornot.R;
 
 public class MainActivity extends AppCompatActivity {
 
