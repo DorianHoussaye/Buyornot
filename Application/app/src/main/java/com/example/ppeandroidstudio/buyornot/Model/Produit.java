@@ -1,4 +1,4 @@
-package com.example.ppeandroidstudio.buyornot;
+package com.example.ppeandroidstudio.buyornot.Model;
 
 
 public class Produit {

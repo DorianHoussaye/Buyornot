@@ -1,8 +1,10 @@
-package com.example.ppeandroidstudio.buyornot;
+package com.example.ppeandroidstudio.buyornot.SQLite;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+
+import com.example.ppeandroidstudio.buyornot.Manager.ProduitManager;
 
 public class MySQLite extends SQLiteOpenHelper {
 

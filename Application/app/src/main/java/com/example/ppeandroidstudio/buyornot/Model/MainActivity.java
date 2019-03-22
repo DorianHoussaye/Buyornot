@@ -1,4 +1,4 @@
-package com.example.ppeandroidstudio.buyornot;
+package com.example.ppeandroidstudio.buyornot.Model;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

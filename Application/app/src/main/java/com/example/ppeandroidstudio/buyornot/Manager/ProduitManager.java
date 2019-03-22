@@ -1,12 +1,12 @@
-package com.example.ppeandroidstudio.buyornot;
+package com.example.ppeandroidstudio.buyornot.Manager;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.example.ppeandroidstudio.buyornot.Produit;
-import com.example.ppeandroidstudio.buyornot.MySQLite;
+import com.example.ppeandroidstudio.buyornot.Model.Produit;
+import com.example.ppeandroidstudio.buyornot.SQLite.MySQLite;
 
 public class ProduitManager {
     private static final String TABLE_NAME = "produit";
