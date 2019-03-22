@@ -4,9 +4,9 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+import com.example.ppeandroidstudio.buyornot.Manager.AdditifManager;
 import com.example.ppeandroidstudio.buyornot.Manager.LabelManager;
 import com.example.ppeandroidstudio.buyornot.Manager.MarqueManager;
-import com.example.ppeandroidstudio.buyornot.Manager.AdditifManager;
 import com.example.ppeandroidstudio.buyornot.Manager.ProduitManager;
 
 public class MySQLite extends SQLiteOpenHelper {

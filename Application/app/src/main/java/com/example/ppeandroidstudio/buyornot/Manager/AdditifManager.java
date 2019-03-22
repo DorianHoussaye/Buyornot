@@ -6,7 +6,6 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
 import com.example.ppeandroidstudio.buyornot.Model.Additif;
-import com.example.ppeandroidstudio.buyornot.Model.Produit;
 import com.example.ppeandroidstudio.buyornot.SQLite.MySQLite;
 
 public class AdditifManager {
