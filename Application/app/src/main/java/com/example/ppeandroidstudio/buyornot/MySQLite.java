@@ -1,4 +1,4 @@
-package com.example.ppeandroidstudio;
+package com.example.ppeandroidstudio.buyornot;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

@@ -1,4 +1,4 @@
-package com.example.ppeandroidstudio;
+package com.example.ppeandroidstudio.buyornot;
 
 
 public class Produit {
@@ -9,20 +9,20 @@ public class Produit {
     private String site_web_produit;
     private String code_emballeur_produit;
     private String ingredients_produit;
-    private int energie_produit;
-    private int matieres_grasses_lipides_produit;
-    private int dont_acides_gras_satures_produit;
-    private int glucides_produit;
-    private int dont_sucres_produit;
-    private int fibres_alimentaires_produit;
-    private int proteines_produit;
-    private int sel_produit;
-    private int sodium_produit;
-    private int fruits_legumes_noix_produit;
-    private int cacao_produit;
+    private double energie_produit;
+    private double matieres_grasses_lipides_produit;
+    private double dont_acides_gras_satures_produit;
+    private double glucides_produit;
+    private double dont_sucres_produit;
+    private double fibres_alimentaires_produit;
+    private double proteines_produit;
+    private double sel_produit;
+    private double sodium_produit;
+    private double fruits_legumes_noix_produit;
+    private double cacao_produit;
 
 
-    public Produit(int id_produit, String nom_produit, String denomination_generique_produit, int quantite_produit, String site_web_produit, String code_emballeur_produit, String ingredients_produit, int energie_produit, int matieres_grasses_lipides_produit, int dont_acides_gras_satures_produit, int glucides_produit, int dont_sucres_produit, int fibres_alimentaires_produit, int proteines_produit, int sel_produit, int sodium_produit, int fruits_legumes_noix_produit, int cacao_produit) {
+    public Produit(int id_produit, String nom_produit, String denomination_generique_produit, int quantite_produit, String site_web_produit, String code_emballeur_produit, String ingredients_produit, double energie_produit, double matieres_grasses_lipides_produit, double dont_acides_gras_satures_produit, double glucides_produit, double dont_sucres_produit, double fibres_alimentaires_produit, double proteines_produit, double sel_produit, double sodium_produit, double fruits_legumes_noix_produit, double cacao_produit) {
         this.id_produit = id_produit;
         this.nom_produit = nom_produit;
         this.denomination_generique_produit = denomination_generique_produit;
@@ -99,91 +99,91 @@ public class Produit {
         this.ingredients_produit = ingredients_produit;
     }
 
-    public int getEnergie_produit() {
+    public double getEnergie_produit() {
         return energie_produit;
     }
 
-    public void setEnergie_produit(int energie_produit) {
+    public void setEnergie_produit(double energie_produit) {
         this.energie_produit = energie_produit;
     }
 
-    public int getMatieres_grasses_lipides_produit() {
+    public double getMatieres_grasses_lipides_produit() {
         return matieres_grasses_lipides_produit;
     }
 
-    public void setMatieres_grasses_lipides_produit(int matieres_grasses_lipides_produit) {
+    public void setMatieres_grasses_lipides_produit(double matieres_grasses_lipides_produit) {
         this.matieres_grasses_lipides_produit = matieres_grasses_lipides_produit;
     }
 
-    public int getDont_acides_gras_satures_produit() {
+    public double getDont_acides_gras_satures_produit() {
         return dont_acides_gras_satures_produit;
     }
 
-    public void setDont_acides_gras_satures_produit(int dont_acides_gras_satures_produit) {
+    public void setDont_acides_gras_satures_produit(double dont_acides_gras_satures_produit) {
         this.dont_acides_gras_satures_produit = dont_acides_gras_satures_produit;
     }
 
-    public int getGlucides_produit() {
+    public double getGlucides_produit() {
         return glucides_produit;
     }
 
-    public void setGlucides_produit(int glucides_produit) {
+    public void setGlucides_produit(double glucides_produit) {
         this.glucides_produit = glucides_produit;
     }
 
-    public int getDont_sucres_produit() {
+    public double getDont_sucres_produit() {
         return dont_sucres_produit;
     }
 
-    public void setDont_sucres_produit(int dont_sucres_produit) {
+    public void setDont_sucres_produit(double dont_sucres_produit) {
         this.dont_sucres_produit = dont_sucres_produit;
     }
 
-    public int getFibres_alimentaires_produit() {
+    public double getFibres_alimentaires_produit() {
         return fibres_alimentaires_produit;
     }
 
-    public void setFibres_alimentaires_produit(int fibres_alimentaires_produit) {
+    public void setFibres_alimentaires_produit(double fibres_alimentaires_produit) {
         this.fibres_alimentaires_produit = fibres_alimentaires_produit;
     }
 
-    public int getProteines_produit() {
+    public double getProteines_produit() {
         return proteines_produit;
     }
 
-    public void setProteines_produit(int proteines_produit) {
+    public void setProteines_produit(double proteines_produit) {
         this.proteines_produit = proteines_produit;
     }
 
-    public int getSel_produit() {
+    public double getSel_produit() {
         return sel_produit;
     }
 
-    public void setSel_produit(int sel_produit) {
+    public void setSel_produit(double sel_produit) {
         this.sel_produit = sel_produit;
     }
 
-    public int getSodium_produit() {
+    public double getSodium_produit() {
         return sodium_produit;
     }
 
-    public void setSodium_produit(int sodium_produit) {
+    public void setSodium_produit(double sodium_produit) {
         this.sodium_produit = sodium_produit;
     }
 
-    public int getFruits_legumes_noix_produit() {
+    public double getFruits_legumes_noix_produit() {
         return fruits_legumes_noix_produit;
     }
 
-    public void setFruits_legumes_noix_produit(int fruits_legumes_noix_produit) {
+    public void setFruits_legumes_noix_produit(double fruits_legumes_noix_produit) {
         this.fruits_legumes_noix_produit = fruits_legumes_noix_produit;
     }
 
-    public int getCacao_produit() {
+    public double getCacao_produit() {
         return cacao_produit;
     }
 
-    public void setCacao_produit(int cacao_produit) {
+    public void setCacao_produit(double cacao_produit) {
         this.cacao_produit = cacao_produit;
     }
 } // class Produit
