@@ -12,7 +12,7 @@ import com.example.ppeandroidstudio.buyornot.SQLite.MySQLite;
 public class AdditifManager {
     private static final String TABLE_NAME = "additif";
     public static final String KEY_ID_ADDITIF = "add_id";
-    public static final String KEY_LIBELLE_ADDITIF = "add_id";
+    public static final String KEY_LIBELLE_ADDITIF = "add_libelle";
 
     public static final String CREATE_TABLE_ADDITIF = "CREATE TABLE " + TABLE_NAME +
             " (" +

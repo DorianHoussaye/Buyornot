@@ -4,7 +4,9 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+
 import com.example.ppeandroidstudio.buyornot.Manager.LabelManager;
+import com.example.ppeandroidstudio.buyornot.Manager.MagasinManager;
 import com.example.ppeandroidstudio.buyornot.Manager.MarqueManager;
 import com.example.ppeandroidstudio.buyornot.Manager.AdditifManager;
 import com.example.ppeandroidstudio.buyornot.Manager.ProduitManager;
@@ -32,6 +34,8 @@ public class MySQLite extends SQLiteOpenHelper {
         sqLiteDatabase.execSQL(MarqueManager.CREATE_TABLE_MARQUE); // création table "marque"
         sqLiteDatabase.execSQL(AdditifManager.CREATE_TABLE_ADDITIF); // création table "additifs"
         sqLiteDatabase.execSQL(LabelManager.CREATE_TABLE_LABEL); // création table "label"
+        sqLiteDatabase.execSQL(MagasinManager.CREATE_TABLE_MAGASIN); // création table "magasin"
+
     }
 
     @Override
