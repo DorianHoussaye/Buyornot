@@ -4,6 +4,7 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+import com.example.ppeandroidstudio.buyornot.Manager.MarqueManager;
 import com.example.ppeandroidstudio.buyornot.Manager.ProduitManager;
 
 public class MySQLite extends SQLiteOpenHelper {
@@ -26,6 +27,7 @@ public class MySQLite extends SQLiteOpenHelper {
         // Création de la base de données
         // on exécute ici les requêtes de création des tables
         sqLiteDatabase.execSQL(ProduitManager.CREATE_TABLE_PRODUIT); // création table "produit"
+        sqLiteDatabase.execSQL(MarqueManager.CREATE_TABLE_MARQUE); // création table "marque"
     }
 
     @Override
