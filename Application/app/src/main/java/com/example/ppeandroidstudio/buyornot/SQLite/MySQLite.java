@@ -9,6 +9,7 @@ import com.example.ppeandroidstudio.buyornot.Manager.LabelManager;
 import com.example.ppeandroidstudio.buyornot.Manager.MagasinManager;
 import com.example.ppeandroidstudio.buyornot.Manager.MarqueManager;
 import com.example.ppeandroidstudio.buyornot.Manager.AdditifManager;
+import com.example.ppeandroidstudio.buyornot.Manager.PaysManager;
 import com.example.ppeandroidstudio.buyornot.Manager.ProduitManager;
 
 public class MySQLite extends SQLiteOpenHelper {
@@ -35,6 +36,7 @@ public class MySQLite extends SQLiteOpenHelper {
         sqLiteDatabase.execSQL(AdditifManager.CREATE_TABLE_ADDITIF); // création table "additifs"
         sqLiteDatabase.execSQL(LabelManager.CREATE_TABLE_LABEL); // création table "label"
         sqLiteDatabase.execSQL(MagasinManager.CREATE_TABLE_MAGASIN); // création table "magasin"
+        sqLiteDatabase.execSQL(PaysManager.CREATE_TABLE_PAYS); // création table "magasin"
 
     }
 
