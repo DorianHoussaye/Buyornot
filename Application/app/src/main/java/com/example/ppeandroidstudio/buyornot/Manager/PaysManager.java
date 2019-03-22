@@ -47,7 +47,7 @@ public class PaysManager {
         return db.insert(TABLE_NAME,null,values);
     }
 
-    public int modMagasin(Pays pays) {
+    public int modPays(Pays pays) {
         // modification d'un enregistrement
         // valeur de retour : (int) nombre de lignes affectées par la requête
 
@@ -60,7 +60,7 @@ public class PaysManager {
         return db.update(TABLE_NAME, values, where, whereArgs);
     }
 
-    public int supMagasin(Pays pays) {
+    public int supPays(Pays pays) {
         // suppression d'un enregistrement
         // valeur de retour : (int) nombre de lignes affectées par la clause WHERE, 0 sinon
 
