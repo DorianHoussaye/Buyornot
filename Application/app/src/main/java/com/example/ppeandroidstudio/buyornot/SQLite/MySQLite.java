@@ -13,6 +13,7 @@ import com.example.ppeandroidstudio.buyornot.Manager.PaysManager;
 import com.example.ppeandroidstudio.buyornot.Manager.ProduitManager;
 import com.example.ppeandroidstudio.buyornot.Manager.CategorieManager;
 import com.example.ppeandroidstudio.buyornot.Manager.AllergeneManager;
+import com.example.ppeandroidstudio.buyornot.Manager.CondionnementManager;
 
 
 
@@ -43,6 +44,7 @@ public class MySQLite extends SQLiteOpenHelper {
         sqLiteDatabase.execSQL(PaysManager.CREATE_TABLE_PAYS); // création table "magasin"
         sqLiteDatabase.execSQL(CategorieManager.CREATE_TABLE_CATEGORIE); // création table "categorie"
         sqLiteDatabase.execSQL(AllergeneManager.CREATE_TABLE_ALLERGENE); // création table "allergene"
+        sqLiteDatabase.execSQL(CondionnementManager.CREATE_TABLE_CONDITIONNEMENT); // création table "conditionnement"
 
     }
 
