@@ -11,6 +11,10 @@ import com.example.ppeandroidstudio.buyornot.Manager.MagasinManager;
 import com.example.ppeandroidstudio.buyornot.Manager.MarqueManager;
 import com.example.ppeandroidstudio.buyornot.Manager.PaysManager;
 import com.example.ppeandroidstudio.buyornot.Manager.ProduitManager;
+import com.example.ppeandroidstudio.buyornot.Manager.CategorieManager;
+import com.example.ppeandroidstudio.buyornot.Manager.AllergeneManager;
+
+
 
 public class MySQLite extends SQLiteOpenHelper {
 
@@ -37,6 +41,8 @@ public class MySQLite extends SQLiteOpenHelper {
         sqLiteDatabase.execSQL(LabelManager.CREATE_TABLE_LABEL); // création table "label"
         sqLiteDatabase.execSQL(MagasinManager.CREATE_TABLE_MAGASIN); // création table "magasin"
         sqLiteDatabase.execSQL(PaysManager.CREATE_TABLE_PAYS); // création table "magasin"
+        sqLiteDatabase.execSQL(CategorieManager.CREATE_TABLE_CATEGORIE); // création table "categorie"
+        sqLiteDatabase.execSQL(AllergeneManager.CREATE_TABLE_ALLERGENE); // création table "allergene"
 
     }
 
